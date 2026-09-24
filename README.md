@@ -15,4 +15,6 @@
 
 ## 安装
 
-复制 `SKILL.md` 到 AI 工具的用户级技能目录（如 ZCode 的 `~/.agents/skills/dev-standard/`），新会话生效。对 AI 说"开发 XX 功能""改造 XX 模块"即会触发。
+复制 `SKILL.md` 到 AI 工具的用户级技能目录（如 ZCode 的 `~/.agents/skills/dev-standard/`），新会话生效。
+
+本技能为手动触发：只有明确说"**使用开发工作流**"时才会加载，日常的开发、改造、修复请求不会自动套用这套流程。
